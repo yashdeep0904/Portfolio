@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashdeep - Portfolio</title>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- FontAwesome (for GitHub/LinkedIn) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Custom Pure CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Portfolio</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <!-- Background Glow Blobs -->
+      <div class="blob blob-blue"></div>
+      <div class="blob blob-purple"></div>
+      
+      <div class="hero-container">
+        <div class="hero-content">
+          <p class="greeting">Hello, I'm</p>
+          <h1 class="name">Yashdeep</h1>
+          <h2 class="title">Full Stack Web Developer</h2>
+          <p class="description">
+            I craft high-performance, beautiful digital experiences that live on the web. Passionate about building scalable applications and intuitive interfaces.
+          </p>
+          <div class="hero-buttons">
+            <a href="#work" class="btn btn-primary">
+              See My Work <i data-lucide="chevron-right" class="icon-sm"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper">
+          <div class="image-glow"></div>
+          <img src="/profile.jpg" alt="Yashdeep Profile" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section glass-section">
+      <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+        <p class="section-text">
+          I am a dedicated Full Stack Developer with a strong foundation in modern web technologies. I specialize in building responsive, user-centric applications using React, Node.js, and MongoDB. Whether I'm developing an AI-powered agricultural platform or engineering real-time communication tools, I am driven by the challenge of turning complex problems into elegant, scalable solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="section-container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="title-underline"></div>
+        <div id="skills-container" class="skills-grid">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work-section glass-section">
+      <div class="section-container">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="title-underline"></div>
+        <div id="projects-container" class="projects-grid">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-text">
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/yashdeep0904" target="_blank" rel="noopener noreferrer" class="social-btn hover-purple">
+          <i class="fa-brands fa-github icon-lg"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yashdeep0904" target="_blank" rel="noopener noreferrer" class="social-btn hover-blue">
+          <i class="fa-brands fa-linkedin icon-lg"></i>
+        </a>
+        <a href="mailto:dhankharyashdeep@gmail.com" class="social-btn hover-pink">
+          <i data-lucide="mail" class="icon-lg"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p id="copyright-text"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
